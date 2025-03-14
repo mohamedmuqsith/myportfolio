@@ -4,6 +4,7 @@ import TripadvisorwebImg from "../assets/images/Tripadvisor__website.png";
 import CounterRandomImg from "../assets/images/CounterRandom__App.png";
 import CargalleryImg from "../assets/images/Cat-image-gallery.png";
 import UdemywebsiteImg from "../assets/images/udemy-website.png";
+import Actodo from '../assets/images/Actodo.png'
 
 const Project = () => {
   const config = {
@@ -19,9 +20,9 @@ const Project = () => {
         link: "https://mohamedmuqsith.github.io/greeden-tailwind/contact.html",
       },
       {
-        image: TripadvisorwebImg,
-        description: `Built a responsive TripAdvisor-inspired travel website using HTML and CSS.`,
-        link: "https://mohamedmuqsith.github.io/Tripadvisor-webpage/",
+        image: Actodo,
+        description: `Built a simple and responsive task management app using React.js and Tailwind CSS.`,
+        link: "https://actodo-ecru.vercel.app/",
       },
     ],
   };
@@ -29,7 +30,7 @@ const Project = () => {
   return (
     <section
       id="project"
-      className="flex flex-col py-20 px-5 justify-center bg-secondary text-white"
+      className="flex flex-col justify-center px-5 py-20 text-white bg-secondary"
     >
       <div className="w-full text-center">
         <h1 className="text-4xl border-b-4 mb-2 inline-block border-[#2a9ca3] font-bold">
@@ -43,16 +44,16 @@ const Project = () => {
 
   
       <div className="w-full px-5">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {config.projects.map((project, index) => (
-            <div key={index} className="relative bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <div key={index} className="relative overflow-hidden bg-gray-800 rounded-lg shadow-lg">
               <img
                 className="h-[250px] w-full object-cover"
                 src={project.image}
                 alt="Project"
               />
               <div className="p-5">
-                <p className="text-center text-lg">{project.description}</p>
+                <p className="text-lg text-center">{project.description}</p>
                 <div className="flex justify-center mt-3">
                   <a
                     className="bg-[#2a9ca3] text-white px-4 py-2 rounded-md hover:bg-[#1e7a81] transition duration-300"
