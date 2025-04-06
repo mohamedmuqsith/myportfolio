@@ -3,10 +3,10 @@ import AboutImg from "../assets/images/about.png";
 
 const About = () => {
   const confing={
-    line1:' Hi, My name is Mukshith. I am a Front-End Developer. I build responsive and visually appealing web applications with React.js and Tailwind CSS.',
-    line2:' I am proficient in Frontend skills like',
-    line3:'HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, React.js,',
-    line4:'I have a keen eye for design and focus on delivering high-performance, responsive, and visually appealing web applications. My goal is to continuously learn and stay updated with the latest web technologies.',
+    line1:'Hi, my name is Mukshith. I am a MERN Stack Developer with a strong focus on backend development. I build scalable and efficient web applications using MongoDB, Express.js, React.js, and Node.js.',
+    line2:' I am proficient in backend technologies such as Node.js, Express.js, MongoDB, and Mongoose, and I actively use Git and GitHub for version control. On the frontend, I have experience with HTML, CSS, Tailwind CSS, JavaScript, and React.js.',
+    line3:'I’m passionate about writing clean, maintainable code and developing robust APIs. My goal is to continuously improve my skills and stay up-to-date with the latest trends in full-stack development.',
+
 
   }
   return (
@@ -14,8 +14,8 @@ const About = () => {
       <div className="py-5 md:w-1/2">
         <img src={AboutImg} alt="" />
       </div>
-      <div className="md:w-1/2 flex justify-center ">
-        <div className="flex flex-col justify-center p-4  text-white">
+      <div className="flex justify-center md:w-1/2 ">
+        <div className="flex flex-col justify-center p-4 text-white">
           <h1 className="text-4xl  border-b-4 mb-2 w-[110px] border-[#082123] font-bold font-hero-font">
             About Me
           </h1>
@@ -23,10 +23,10 @@ const About = () => {
          {confing.line1}
           </p>
           <p className="pb-5 text-justify">
-         {confing.line2} <span className="font-bold">{confing.line3}</span> and I actively use <span className="font-bold"> GitHub </span>for version control.
+         {confing.line2} 
           </p>
           <p className="text-justify">
-          {confing.line4}
+          {confing.line3}
           </p>
         </div>
       </div>

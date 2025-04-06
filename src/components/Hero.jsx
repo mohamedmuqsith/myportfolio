@@ -4,11 +4,11 @@ import { AiFillGithub } from "react-icons/ai";
 import { LuInstagram } from "react-icons/lu";
 const Hero=()=>{
     const confing={
-        subtitle:'I am Frontend Developer and Designer'
+        subtitle:'MERN Stack Developer | Backend Specialist | API & Database Enthusiast'
     }
      return(
-        <section id='hero' className='flex flex-col items-center  md:flex-row px-5 py-32 bg-secondary text-white justify-center'>
-            <div className='md:w-1/2 flex  flex-col'>
+        <section id='hero' className='flex flex-col items-center justify-center px-5 py-32 text-white md:flex-row bg-secondary'>
+            <div className='flex flex-col md:w-1/2'>
             <h1 className='text-6xl font-hero-font'>Hi<br></br>I'm <span style={{color:'black'}}>M.F.M</span> Mukshith
             <p className='text-2xl'>{confing.subtitle}</p></h1>
             <div className='flex gap-5 py-8'>

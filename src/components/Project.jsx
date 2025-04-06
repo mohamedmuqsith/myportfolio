@@ -1,28 +1,42 @@
-import DresshopwebImg from "../assets/images/Dress__Shop__WebSite.png";
-import GreendenwebImg from "../assets/images/Greenden__Website.png";
-import TripadvisorwebImg from "../assets/images/Tripadvisor__website.png";
-import CounterRandomImg from "../assets/images/CounterRandom__App.png";
-import CargalleryImg from "../assets/images/Cat-image-gallery.png";
-import UdemywebsiteImg from "../assets/images/udemy-website.png";
-import Actodo from '../assets/images/Actodo.png'
+import Libsrary from "../assets/images/Libsrary.png"
+import WeatherAPP from'../assets/images/WeatherAPP.png'
+import MessagerIMG from '../assets/images/MessagerIMG.png'
+
 
 const Project = () => {
   const config = {
     projects: [
       {
-        image: DresshopwebImg,
-        description: `I built CITY PALACE using HTML, Tailwind CSS, and JavaScript to deliver a modern, responsive, and interactive shopping experience.`,
-        link: "https://mohamedmuqsith.github.io/CityPalace/index.html",
+        image: Libsrary,
+        description: `Just built a Library Management System using the MERN stack (React.js, Tailwind CSS, Express.js, MongoDB)!
+✅ Add, edit, delete, search books
+✅ Responsive UI
+✅ Full CRUD functionality
+
+`,
+        link: "https://library-mern-stack-pro.vercel.app/",
+      },
+
+      
+      {
+        image: WeatherAPP,
+        description: `Weather App – Real-Time Weather Updates 🌤️
+Built with React.js, Tailwind CSS, Axios, OpenWeather API
+
+✅ Search any city
+✅ Real-time weather, temperature & conditions
+✅ Smooth, modern UI`,
+        link: "https://weather-api-app-rust-iota.vercel.app/",
       },
       {
-        image: GreendenwebImg,
-        description: `Built 'Greenden,' a responsive front-end project using HTML, Tailwind CSS, and JavaScript.`,
-        link: "https://mohamedmuqsith.github.io/greeden-tailwind/contact.html",
-      },
-      {
-        image: Actodo,
-        description: `Built a simple and responsive task management app using React.js and Tailwind CSS.`,
-        link: "https://actodo-ecru.vercel.app/",
+        image: MessagerIMG,
+        description: `ChatApp – Messenger App 💬
+Built with React.js, focusing on simplicity, responsiveness, and smooth messaging.
+
+✅ Chat list with latest messages
+✅ Save and access important chats
+✅ Fully responsive for mobile & desktop`,
+        link: "https://messager-app-two.vercel.app/",
       },
     ],
   };
@@ -37,8 +51,7 @@ const Project = () => {
           Projects
         </h1>
         <p className="pb-5 text-lg">
-          These are some of my best projects. I have built these with React,
-          JavaScript, and Tailwind CSS. Check them out.
+        Here are some of my best projects, built using the MERN Stack (MongoDB, Express, React, Node.js), along with JavaScript and Tailwind CSS. Feel free to check them out!
         </p>
       </div>
 
