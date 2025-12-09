@@ -6,9 +6,9 @@ const Hero = () => {
     const config = {
         subtitle: "MERN Stack Developer",
         social: {
-            github: "https://github.com/mukshith", // Add actual links if known
-            linkedin: "https://linkedin.com/in/mukshith",
-            instagram: "https://instagram.com/mukshith",
+            github: "https://github.com/mohamedmuqsith",
+            linkedin: "https://www.linkedin.com/in/m-f-m-mukshith/",
+            instagram: "https://instagram.com/muqsithmalli6",
         },
     };
 
