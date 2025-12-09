@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaJs, FaGithub, FaGitAlt, FaJava, FaPython } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaJs, FaGithub, FaGitAlt, FaJava, FaPython, FaLinux } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTailwindcss, SiMysql, SiPostman, SiFigma } from "react-icons/si";
 import { motion } from 'framer-motion';
 
@@ -14,6 +14,7 @@ const skills = [
     { name: "CSS3", icon: <FaCss3 />, color: "#1572B6" },
     { name: "Git", icon: <FaGitAlt />, color: "#F05032" },
     { name: "GitHub", icon: <FaGithub />, color: "#181717" }, // White in dark mode
+    { name: "Linux", icon: <FaLinux />, color: "#FCC624" }, // Linux Yellow/Gold
     { name: "Java", icon: <FaJava />, color: "#007396" },
     { name: "Python", icon: <FaPython />, color: "#3776AB" },
     { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
