@@ -48,12 +48,13 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 glass px-5 py-4 flex justify-between items-center transition-all duration-300">
       <motion.a
         href="/"
-        className="text-2xl font-bold font-hero-font tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+        className="flex items-center gap-2 font-bold font-hero-font tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
       >
-        MUKSHITH
+        <span className="text-4xl text-white drop-shadow-md">M</span>
+        <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Mukshith</span>
       </motion.a>
 
       {/* Desktop Nav */}
